@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./css/cart.css">
+</head>
+<body>
+    <header class="sony">
+        <div class="logo">Ecommerce</div>
+        <nav class="pic">
+          <a href="./home.html"><span style="color:darkblue; ">Home</span></a>
+          <a href="./product.html"><span style="color:darkblue; ">Products</span></a>
+          <a href="./about.html"><span style="color:darkblue;">About</span></a>
+          <a href="./contact.html"><span style="color:darkblue;">Contact</span></a>
+        </nav>
+        <div class="tom">
+         
+          <a href="./loginpage.html"><button id="loginBtn" class="lrcBtn"><i class="fa-solid fa-right-to-bracket"></i> Login</button></a>
+          <a href="./register.html"><button class="lrcBtn"><i class="fa-solid fa-user-plus"></i> Register</button></a>
+          <a href="./cart.html"><button class="lrcBtn cart-btn"><i class="fa-solid fa-cart-shopping"></i> Cart</button></a>
+      
+        </div>
+      </header>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- <nav class="navbar">
+   
+    <a href="../html/login.html"><button id="loginBtn" class="lrcBtn"><i class="fa-solid fa-right-to-bracket"></i> Login</button></a>
+    <a href="../html/register.html"><button class="lrcBtn"><i class="fa-solid fa-user-plus"></i> Register</button></a>
+    <a href="../html/cart.html"><button class="lrcBtn cart-btn"><i class="fa-solid fa-cart-shopping"></i> Cart</button></a>
+  </nav> -->
+
+  <div class="cart-container">
+    <h1>Cart</h1>
+
+    <div class="card-grid">
+
+      <!--  Item List -->
+      <div class="itemlist">
+        <!-- Items will be pushed here from cart.js -->
+      </div>
+
+      <!-- Order Summary -->
+<div class="order-summary">
+    <h3>Order Summary</h3>
+    <p class="summary-products">Products (0): $0.00</p>
+    <p>Shipping: <strong>$30</strong></p>
+    <hr>
+    <p>Total amount: <strong class="summary-total">$30.00</strong></p>
+    <button class="checkout-btn">Go to checkout</button>
+  </div>
+  
+
+    </div>
+  </div>
+
+  <script src="./java script/cart.js"></script>
+</body>
+</html>
+
+</body>
+</html>
